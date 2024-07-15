@@ -73,15 +73,14 @@ img{
     text-decoration: underline;
   }
 
-/* Media query for larger screens */
 @media (min-width: 768px) {
     .qrcode-card {
-      max-width: 80%; /* Adjust max-width for larger screens */
+      max-width: 80%; 
     }
   }
   
   @media (min-width: 1440px) {
     .qrcode-card {
-      max-width: 50%; /* Further adjust max-width for desktop screens */
+      max-width: 50%;
     }
   }
